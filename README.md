@@ -106,7 +106,7 @@ _Coming soon..._
 
 You could be spending hours upon hours writing your own [easing functions][easing-functions] in some Update-loop or UniRx Observable - or you could use a tweening library.
 We recommend using [DOTween][dotween]. It's easy to learn, has a lot of functionality and it's [faster than the others][dotween-fast]!
-This is extremely handy when you're trying to implement some simple UI animation for example. Do not use this for organic animation, e.g. characters. Refer to [Unity's built-in animation system][unity-animation] in that case.
+This is extremely handy when you're trying to implement some simple UI animation for example. Do not use this for organic animation, e.g. characters. Refer to [Unity's built-in animation system][unity-animation] in that case. 
 
 Here's a quick example on how to move something to a new position over two seconds with a quint easing, and finally logging to the console:
 ```csharp
