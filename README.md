@@ -3,7 +3,7 @@ Unity3D Good Practices
 
 _Work in progress, please contribute or fix things as you see fit_
 
-Interested in platforms? Our [Best Practices in Android Development][android-best-practices], [Windows App Development Best Practices][windows-app-development-best-practices] and [iOS Good Practices][ios-good-practices] documents have got you covered.
+Interested in other platforms? Our [Best Practices in Android Development][android-best-practices], [Windows App Development Best Practices][windows-app-development-best-practices] and [iOS Good Practices][ios-good-practices] documents have got you covered.
 
 [android-best-practices]: https://github.com/futurice/android-best-practices
 [windows-app-development-best-practices]: https://github.com/futurice/windows-app-development-best-practices
