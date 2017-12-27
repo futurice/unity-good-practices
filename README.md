@@ -14,6 +14,7 @@ Interested in platforms? Our [Best Practices in Android Development][android-bes
 If you are looking for something specific, you can jump right into the relevant section from here.
 
 1. [Timers and reactive programming](#timers-and-reactive-programming)
+1. [Animating from scripts](#animating-from-scripts)
 
 ## Timers and reactive programming 
 
@@ -65,7 +66,7 @@ void Update()
 }
 ```
 
-This is even more boiler-plate. We have to try something much more shorthand. I recommend [Reactive Extensions For Unity][unirx], UniRx for short.
+This is even more boilerplate. We have to try something much more shorthand. I recommend [Reactive Extensions For Unity][unirx], UniRx for short.
 You can download UniRx from the [Asset Store][unirx-asset]
 
 Here's the same example as above, but written with UniRx:
