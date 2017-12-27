@@ -99,9 +99,8 @@ Please refer to the UniRx github page for more examples.
 [rx-wiki]: https://en.wikipedia.org/wiki/Reactive_programming
 [lambda-expression]: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/lambda-expressions
 
-### 
-Reactive properties
-_Coming soon...
+### Reactive properties
+_Coming soon..._
 
 ## Animating from scripts
 
