@@ -21,7 +21,7 @@ If you are looking for something specific, you can jump right into the relevant 
 
 ## Tutorials
 
-Here's a list of recommended tutorials:
+Here's a list of recommended tutorials for getting to know Unity.
 
 * [Catlike Coding][catlike-coding] offers scripting basics, programmatic meshes, shaders and more.
 * [Udemy][udemy-link] has paid but thorough tutorials on making entire games in Unity.
@@ -91,7 +91,32 @@ For more information, see [here][scripting-runtime-upgrade].
 [scripting-runtime-upgrade]: https://docs.unity3d.com/Manual/ScriptingRuntimeUpgrade.html
 
 ### Code style
-_Coming soon..._
+To keep your code maintainable and readable by yourself and others as well, it's recommended to determine a specific [style][programming-style] for your scripts. It's up to you to determine what's best for yourself and your teammates. Here's one way to do it:
+
+```csharp
+namespace MyNamespace
+{
+	public class MyClass
+	{
+		// private fields start with underscore and then lowercase
+		// public fields start with no underscore and uppercase
+		// variables start with no underscore and lowercase
+		[SerializeField] private float _myPrivateEditorField = 1f; // starts with default value of 1, gets overriden in editor
+		[HideInInspector] public float MyPublicHiddenField = 2f; // can't be seen in inspector, but other scripts need this variable
+		private float _myPrivateField = 3f; // cannot be seen in inspector
+		public float MyPublicField = 4f; // is automatically serialized and can be seen in the inspector
+		
+		public float MyPrivateFieldAccessor => _myPrivateField; // other scripts can now read _myPrivateField
+		
+		public void MyFunction(float myParameter)
+		{
+			var myVariable = 5f;
+		}
+	}
+}
+```
+
+[programming-style]: https://en.wikipedia.org/wiki/Programming_style
 
 ### LINQ
 Language-integrated query, or [LINQ][linq-docs] for short, is a way of handling collections in dotnet. 
