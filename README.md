@@ -96,7 +96,7 @@ To keep your code maintainable and readable by yourself and others as well, it's
 ```csharp
 namespace MyNamespace
 {
-	public class MyClass
+	public class MyClass : MonoBehaviour
 	{
 		// private fields start with underscore and then lowercase
 		// public fields start with no underscore and uppercase
