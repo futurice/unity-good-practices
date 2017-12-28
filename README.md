@@ -158,7 +158,7 @@ Language-integrated query, or LINQ for short, is a way of handling collections i
 
 Let's say you want to find a gameobject in a list that has some specific tag:
 ```csharp
-var gameObjectToFind = null;
+GameObject gameObjectToFind = null;
 foreach(var go in yourListOfGameObjects)
 {
 	if(go.tag == "fooBar")
