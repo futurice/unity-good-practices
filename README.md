@@ -120,3 +120,16 @@ transform.DOMove(new Vector3(1,2,3), 1).SetEase(Ease.InOutQuint).OnComplete(() =
 [dotween]: http://dotween.demigiant.com/
 [dotween-fast]: http://dotween.demigiant.com/#enginesComparison
 [unity-animation]: https://unity3d.com/learn/tutorials/s/animation
+
+## Coding conventions
+In this section we'll talk about raising the quality of your code. Some of these tips may affect performance, so be mindful.
+
+### C# version
+Unity builds to a runtime version of dotnet 3.5 by default.
+You can switch to 4.6 by going into Player -> PC, Mac and Linux -> Other Settings -> Configuration -> Scripting Runtime Version.
+
+### Code style
+_Coming soon..._
+
+### LINQ
+_Coming soon..._
