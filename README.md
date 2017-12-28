@@ -14,7 +14,7 @@ Interested in other platforms? Our [Best Practices in Android Development][andro
 If you are looking for something specific, you can jump right into the relevant section from here.
 
 1. [Tutorials](#tutorials)
-1. [Animating from scripts](#animating-from-scripts)
+1. [Recommended assets](#recommended-assets)
 1. [Coding conventions](#coding-conventions)
 1. [Optimizing](#optimizing)
 1. [Testing](#testing)
@@ -29,7 +29,9 @@ Here's a list of recommended tutorials:
 [catlike-coding]: http://catlikecoding.com/unity/tutorials/
 [udemy-link]: https://www.udemy.com/unitycourse/
 
-## Animating from scripts
+## Recommended assets
+
+### DOTween - Animating from scripts
 
 You could be spending hours upon hours writing your own [easing functions][easing-functions] in some Update-loop or UniRx Observable - or you could use a tweening library.
 We recommend using [DOTween][dotween]. It's easy to learn, has a lot of functionality and it's [faster than the others][dotween-fast]!
