@@ -155,3 +155,28 @@ _Coming soon..._
 
 ### LINQ
 _Coming soon..._
+
+## Optimizing
+
+### Profiling
+_Coming soon..._
+
+## Testing
+
+### Unit tests
+_Coming soon..._
+
+### Platform dependent compilation
+Switching platforms for sections of your scripts is done like so:
+```csharp
+void Start()
+{
+	#if UNITY_EDITOR
+	Debug.Log("Hello Unity Edtor");
+	#else
+	Debug.Log("Hello something else");
+	#endif
+}
+```
+This is great if you want to skip parts in your application/game. See more [here][platform-dependent-compilation]
+[platform-dependent-compilation]: https://docs.unity3d.com/Manual/PlatformDependentCompilation.html
