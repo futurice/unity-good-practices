@@ -178,5 +178,7 @@ void Start()
 	#endif
 }
 ```
-This is great if you want to skip parts in your application/game. See more [here][platform-dependent-compilation]
-[platform-dependent-compilation]: https://docs.unity3d.com/Manual/PlatformDependentCompilation.html
+This is great if you want to skip parts in your application/game. See more [here][platform-compilation].
+
+
+[platform-compilation]: https://docs.unity3d.com/Manual/PlatformDependentCompilation.html
