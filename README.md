@@ -168,7 +168,7 @@ For more information, see [here][scripting-runtime-upgrade].
 _Coming soon..._
 
 ### LINQ
-Language-integrated query, or LINQ for short, is a way of handling collections in dotnet. 
+Language-integrated query, or [LINQ][linq-docs] for short, is a way of handling collections in dotnet. 
 
 Let's say you want to find a gameobject in a list that has some specific tag:
 ```csharp
@@ -192,7 +192,7 @@ As with loops, you should be careful of using these sort of statements in freque
 See more examples of LINQ in Unity [here][linq-example]
 
 
-
+[linq-docs]: https://docs.microsoft.com/en-us/dotnet/standard/using-linq
 [linq-example]: https://unity3d.college/2017/07/01/linq-unity-developers/
 
 
