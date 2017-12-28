@@ -203,9 +203,16 @@ Please refer to the UniRx github page for more examples.
 [lambda-expression]: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/lambda-expressions
 
 ## Optimizing
+If your game is getting laggy, try reading some tips below.
 
 ### Object pooling
-_Coming soon..._
+If you're instantiating/destroying a lot of objects, try using an object pool. The principle is simple
+* You have X amount of objects instantiated before-hand in the scene, set as inactive
+* Instead of instantiating, you pull from the pool and set as active
+* Instead of destroying, you set as inactive and return to the pool
+
+This will make life much easier for your CPU. See a detailed tutorial [here][object-pooling]
+[object-pooling]: https://www.raywenderlich.com/136091/object-pooling-unity
 
 ### Profiling
 _Coming soon..._
