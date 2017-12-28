@@ -126,7 +126,29 @@ In this section we'll talk about raising the quality of your code. Some of these
 
 ### C# version
 Unity builds to a runtime version of dotnet 3.5 by default.
-You can switch to 4.6 by going into Player -> PC, Mac and Linux -> Other Settings -> Configuration -> Scripting Runtime Version.
+You can switch to 4.6 by going into Player -> PC, Mac and Linux -> Other Settings -> Configuration -> Scripting Runtime Version. Here's an example of a getter property in 3.5:
+
+```csharp
+private int _foo;
+public int Foo
+{
+	get
+	{
+		return _foo;
+	}
+}
+`
+And here's the same in 4.6:
+
+```csharp
+private int _foo;
+public int Foo => _foo;
+```
+
+For more information, see [here][scripting-runtime-upgrade].
+
+
+[scripting-runtime-upgrade]: https://docs.unity3d.com/Manual/ScriptingRuntimeUpgrade.html
 
 ### Code style
 _Coming soon..._
