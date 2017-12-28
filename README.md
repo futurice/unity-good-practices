@@ -44,11 +44,17 @@ transform.DOMove(new Vector3(1,2,3), 1).SetEase(Ease.InOutQuint).OnComplete(() =
 	Debug.Log("Hello world");
 });
 ``` 
-
 [easing-functions]: http://easings.net/
 [dotween]: http://dotween.demigiant.com/
 [dotween-fast]: http://dotween.demigiant.com/#enginesComparison
 [unity-animation]: https://unity3d.com/learn/tutorials/s/animation
+
+### TextMesh Pro - Better text for your games
+
+Ever think 'The text in Unity is so bad...'? Worry no more, [TextMesh Pro is here to save you][textmesh-pro]
+[textmesh-pro]: https://www.assetstore.unity3d.com/en/#!/content/84126
+
+There's not much to say here, it's "just" text, done right. You can use text as a mesh in your 3D world, or use it as text for your canvas.
 
 ## Coding conventions
 In this section we'll talk about raising the quality of your code. Some of these tips may affect performance, so be mindful.
