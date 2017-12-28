@@ -24,7 +24,7 @@ If you are looking for something specific, you can jump right into the relevant 
 
 Here's a list of recommended tutorials:
 
-* [Catlike Codine][catlike-coding] offers scripting basics, programmatic meshes, shaders and more.
+* [Catlike Coding][catlike-coding] offers scripting basics, programmatic meshes, shaders and more.
 
 [catlike-coding]: http://catlikecoding.com/unity/tutorials/
 
