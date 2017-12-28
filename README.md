@@ -108,7 +108,7 @@ See more examples of LINQ in Unity [here][linq-example]
 [linq-docs]: https://docs.microsoft.com/en-us/dotnet/standard/using-linq
 [linq-example]: https://unity3d.college/2017/07/01/linq-unity-developers/
 
-## Coroutines vs reactive extensions
+### Coroutines vs reactive extensions
 
 By default, Unity offers [Coroutines][unity-coroutines] for handling future execution. In this section we'll go through the cons of that, and introduce an alternative featuring reactive programming.
 
