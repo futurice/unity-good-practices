@@ -137,7 +137,7 @@ public int Foo
 		return _foo;
 	}
 }
-`
+```
 And here's the same in 4.6:
 
 ```csharp
