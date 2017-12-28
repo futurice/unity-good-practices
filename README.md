@@ -31,7 +31,9 @@ Here's a list of recommended tutorials:
 
 ## Recommended assets
 
-This section will list some highly recommended but perhaps not always relevant assets. Not mentioned in this section is Reactive Extensions for Unity which we will cover later.
+This section will list some highly recommended but perhaps not always relevant assets. Not mentioned in this section is Reactive Extensions for Unity which we will cover later. To get an overview of a lot of open-source assets, check out [AssetLoad][asset-load]
+
+[asset-load]: http://assetload.com/browse?c=unity
 
 ### DOTween - Animating from scripts
 
