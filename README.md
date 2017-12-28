@@ -154,7 +154,33 @@ For more information, see [here][scripting-runtime-upgrade].
 _Coming soon..._
 
 ### LINQ
-_Coming soon..._
+Language-integrated query, or LINQ for short, is a way of handling collections in dotnet. 
+
+Let's say you want to find a gameobject in a list that has some specific tag:
+```csharp
+var gameObjectToFind = null;
+foreach(var go in yourListOfGameObjects)
+{
+	if(go.tag == "fooBar")
+	{
+		gameObjectToFind = go;
+		break;
+	}
+}
+```
+
+We can do this much shorter with LINQ:
+```csharp
+var gameObjectToFind = yourListOfGameObjects.FirstOrDefault(go => go.tag == "fooBar");
+```
+
+As with loops, you should be careful of using these sort of statements in frequently run scopes like Update or FixedUpdate. LINQ in particular allocates more memory than a trivial for-loop. Internally, LINQ still uses for-loops - but your code will be easier to read, at least once you get to know LINQ.
+See more examples of LINQ in Unity [here][linq-example]
+
+
+
+[linq-example]: https://unity3d.college/2017/07/01/linq-unity-developers/
+
 
 ## Optimizing
 
