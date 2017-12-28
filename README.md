@@ -13,11 +13,20 @@ Interested in other platforms? Our [Best Practices in Android Development][andro
 
 If you are looking for something specific, you can jump right into the relevant section from here.
 
+1. [Tutorials](#tutorials)
 1. [Timers and reactive programming](#timers-and-reactive-programming)
 1. [Animating from scripts](#animating-from-scripts)
 1. [Coding conventions](#coding-conventions)
 1. [Optimizing](#optimizing)
 1. [Testing](#testing)
+
+## Tutorials
+
+Here's a list of recommended tutorials:
+
+* [Catlike Codine][catlike-coding] offers scripting basics, programmatic meshes, shaders and more.
+
+[catlike-coding]: http://catlikecoding.com/unity/tutorials/
 
 ## Timers and reactive programming 
 
