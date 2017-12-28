@@ -15,6 +15,9 @@ If you are looking for something specific, you can jump right into the relevant 
 
 1. [Timers and reactive programming](#timers-and-reactive-programming)
 1. [Animating from scripts](#animating-from-scripts)
+1. [Coding conventions](#coding-conventions)
+1. [Optimizing](#optimizing)
+1. [Testing](#testing)
 
 ## Timers and reactive programming 
 
