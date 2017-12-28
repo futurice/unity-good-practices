@@ -187,6 +187,9 @@ See more examples of LINQ in Unity [here][linq-example]
 
 ## Optimizing
 
+### Object pooling
+_Coming soon..._
+
 ### Profiling
 _Coming soon..._
 
