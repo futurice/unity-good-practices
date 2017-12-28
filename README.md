@@ -31,6 +31,8 @@ Here's a list of recommended tutorials:
 
 ## Recommended assets
 
+This section will list some highly recommended but perhaps not always relevant assets. Not mentioned in this section is Reactive Extensions for Unity which we will cover later.
+
 ### DOTween - Animating from scripts
 
 You could be spending hours upon hours writing your own [easing functions][easing-functions] in some Update-loop or UniRx Observable - or you could use a tweening library.
