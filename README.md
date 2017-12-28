@@ -53,7 +53,8 @@ transform.DOMove(new Vector3(1,2,3), 1).SetEase(Ease.InOutQuint).OnComplete(() =
 
 ### TextMesh Pro - Better text for your games
 
-Ever think 'The text in Unity is so bad...'? Worry no more, [TextMesh Pro is here to save you][textmesh-pro]
+Ever think 'The text in Unity is so bad...'? Worry no more, [TextMesh Pro is here to save you][textmesh-pro].
+
 [textmesh-pro]: https://www.assetstore.unity3d.com/en/#!/content/84126
 
 There's not much to say here, it's "just" text, done right. You can use text as a mesh in your 3D world, or use it as text for your canvas.
