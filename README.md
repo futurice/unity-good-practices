@@ -25,8 +25,10 @@ If you are looking for something specific, you can jump right into the relevant 
 Here's a list of recommended tutorials:
 
 * [Catlike Coding][catlike-coding] offers scripting basics, programmatic meshes, shaders and more.
+* [Udemy][udemy-link] has paid but thorough tutorials on making entire games in Unity.
 
 [catlike-coding]: http://catlikecoding.com/unity/tutorials/
+[udemy-link]: https://www.udemy.com/unitycourse/
 
 ## Timers and reactive programming 
 
