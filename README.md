@@ -236,9 +236,10 @@ If you're instantiating/destroying a lot of objects, try using an object pool. T
 * Instead of instantiating, you pull from the pool and set as active
 * Instead of destroying, you set as inactive and return to the pool
 
-This will make life much easier for your CPU. See a detailed tutorial [here][object-pooling]
+This will make life much easier for your CPU. See a detailed tutorial [here][object-pooling] and [here][object-pooling-cat]
 
 [object-pooling]: https://www.raywenderlich.com/136091/object-pooling-unity
+[object-pooling-cat]: http://catlikecoding.com/unity/tutorials/object-pools/
 
 ### Profiling
 _Coming soon..._
