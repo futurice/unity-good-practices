@@ -18,6 +18,7 @@ If you are looking for something specific, you can jump right into the relevant 
 1. [Coding conventions](#coding-conventions)
 1. [Optimizing](#optimizing)
 1. [Testing](#testing)
+1. [Tools]("tools)
 
 ## Tutorials
 
@@ -265,3 +266,9 @@ This is great if you want to skip parts in your application/game. See more [here
 
 
 [platform-compilation]: https://docs.unity3d.com/Manual/PlatformDependentCompilation.html
+
+## Tools
+
+### IDEs
+
+This is a matter of taste, but other than the built-in MonoDevelop, you can try out Rider, Visual Studio or Visual Studio Code. There's a lot of different IDEs and different arguments for which one is the best.
