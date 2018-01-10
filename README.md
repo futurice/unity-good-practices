@@ -18,7 +18,7 @@ If you are looking for something specific, you can jump right into the relevant 
 1. [Coding conventions](#coding-conventions)
 1. [Optimizing](#optimizing)
 1. [Testing](#testing)
-1. [Tools]("tools)
+1. [Tools](#tools)
 
 ## Tutorials
 
