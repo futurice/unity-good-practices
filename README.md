@@ -272,3 +272,5 @@ This is great if you want to skip parts in your application/game. See more [here
 ### IDEs
 
 This is a matter of taste, but other than the built-in MonoDevelop, you can try out Rider, Visual Studio or Visual Studio Code. There's a lot of different IDEs and different arguments for which one is the best.
+
+Personal experiences: Visual Studio Code does not work very well for debugging
